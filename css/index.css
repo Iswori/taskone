@@ -448,3 +448,123 @@ h6{
 .ca,.re,.bl,.gu{
     font-size:20px;
 }
+.cabutton{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color:#44787d;
+    color: #f8f8f8;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.rebutton{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(201, 175, 90);
+    color: #f8f8f8;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.blbutton{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color:#f8f8f8;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.gubutton{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color:#a21258;
+    color: #f8f8f8;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.h7{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stories{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.girl{
+    height: 500px;
+    width: 525px;
+    display: flex;
+    flex-direction: row;
+}
+.rhoda{
+    height: fit-content;
+    width: 260px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.rhodapic{
+    height: 500px;
+    width: 260px;
+    background-image: url(../photos/girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.boy{
+    height: 500px;
+    width: 525px;
+    display: flex;
+    flex-direction: row;
+
+}
+.dean{
+    height: fit-content;
+    width: 260px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.deanpic{
+    height: 500px;
+    width: 260px;
+    background-image: url(../photos/boy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rhodabutton{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #a21258;
+    color: #a21258;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+    
+}
+.deanbutton{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #a21258;
+    color: #a21258;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 150px;
+}
