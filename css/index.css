@@ -123,7 +123,7 @@ border: 1px solid rgba(206, 197, 197, 0.836);
     border-radius: 40px; 
    }
    .background{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100px;
     width: 100px;
    }
@@ -253,13 +253,21 @@ margin-top: 65px;
     cursor: pointer;
 
    }
-   .pic{
+   .pic1{
+    height: 355px;
+    width: 520px;
     background-image: url(../photos/pic.jpg);
-    height:566px;
-    width:525px;
-    border-radius: 0px 35px 35px 0px;
-    background-repeat: repeat;
-    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 35px 0px 0px;
+   }
+   .pic2{
+    height: 330px;
+    width: 520px;
+    background-image: url(../photos/2boy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 35px 0px;
    }
    .box{
     margin-top:50px;
@@ -345,6 +353,7 @@ flex-direction: row;
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cbutton{
     height: 40px;
@@ -369,6 +378,7 @@ flex-direction: row;
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .epic{
     height: 400px;
@@ -457,6 +467,7 @@ h6{
     color: #f8f8f8;
     font-size: 18px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .rebutton{
     height: 50px;
@@ -467,6 +478,7 @@ h6{
     color: #f8f8f8;
     font-size: 18px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .blbutton{
     height: 50px;
@@ -477,6 +489,7 @@ h6{
     color: black;
     font-size: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .gubutton{
     height: 50px;
@@ -487,6 +500,7 @@ h6{
     color: #f8f8f8;
     font-size: 18px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .h7{
     margin-left: 150px;
@@ -514,6 +528,7 @@ h6{
     height: fit-content;
     width: 260px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     
@@ -537,6 +552,7 @@ h6{
     height: fit-content;
     width: 260px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 
@@ -557,7 +573,8 @@ h6{
     border-radius: 20px;
     font-size: 15px;
     margin-top: 40px;
-    
+    cursor: pointer;
+    background-color: #ffffff;
 }
 .deanbutton{
     height: 50px;
@@ -567,4 +584,107 @@ h6{
     border-radius: 20px;
     font-size: 15px;
     margin-top: 150px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.last{
+    height:700px;
+    width: 1355px;
+    background-color:#eaeff5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+}
+.part1{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 30px;
+    height: fit-content;
+    width: 300px;
+}
+.nation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 30px;
+    height: fit-content;
+    width: 400px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 30px;
+    height: fit-content;
+    width: 300px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 30px;
+    height: fit-content;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 5px;
+    color: #6b6868;
+}
+.sbutton{
+    height: 50px;
+    width: 250px;
+    border-radius: 40px;
+    background-color: #a21258;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:5px;
+    color: #6b6868;
+}
+.title{
+    font-size: 25px;
+    color: black;
+}
+.picpart2{
+    height: 70px;
+    width: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.part3{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.atag{
+    color: black;
+    font-size: 15px;
+}
+.part4{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 18px;
+    color: #6b6868;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button4{
+   height: 50px;
+   width: 50px;
+   border-radius: 50px;
+   border: none;
+   background-color: #6b6868;
+   color: white;
+   cursor: pointer;
 }
