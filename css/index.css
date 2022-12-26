@@ -70,6 +70,7 @@ border: 1px solid rgba(206, 197, 197, 0.836);
     height:100px;
     display: flex;
     flex-direction: row;
+    /* gap: 30px; */
 }
 .logo{
     
@@ -87,29 +88,45 @@ border: 1px solid rgba(206, 197, 197, 0.836);
 .op1{
     display: flex;
     align-items: center;
-    margin-left: -10px;
-}
-.s1,.s2,.s3,.s4{
+    /* margin-left: -10px; */
+    /* width: 80px; 
+    background-color: green; */
+} 
+/* .op1 select{
+    background-color: purple;
+    width: 100px;
+} */
+
+
+.s1, .s2,.s3,.s4{
     
     text-align: center;
     font-weight:1000;
     font-size: 15px;
     border: none;
+    width: fit-content;
+    outline: none;
+    /* background-color: red; */
+    cursor: pointer;
 }
    .op2{
     display: flex;
-    align-items: center;
     
+    /* background-color: #a21258;
+    width: 100px; */
+
    }
    .op3{
     display: flex;
     align-items: center;
-    
+    /* background-color: yellowgreen;
+    width: fit-content; */
    }
    .op4{
     display: flex;
     align-items: center;
-    
+    /* background-color: violet;
+    width: fit-content; */
    }
    .search{
     display: flex;
