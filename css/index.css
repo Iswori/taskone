@@ -307,6 +307,9 @@ margin-top: 65px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
+   .box3pic{
+    height: 280px;
+   }
    h2{
     font-size:25px;
     display: flex;
@@ -384,7 +387,7 @@ flex-direction: row;
     width: 200px;
     border: 2px solid #a21258;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 17px;
     color: #a21258;
     background-color: white;
     margin-top: 150px;
@@ -423,7 +426,7 @@ flex-direction: row;
     width: 200px;
     border: 2px solid #a21258;
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 15px;
     color: #a21258;
     background-color: white;
     margin-top: 40px;
